@@ -17,12 +17,12 @@
         android:background="@drawable/popup">
 
         <TextView
-            android:layout_width="64dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="23dp"
             android:text="@string/set_threshold_dialog_title"
-            android:textSize="16sp"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/threshold_dialog_threshold_et"
